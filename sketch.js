@@ -20,7 +20,7 @@ function setup() {
   part1 = new BottomPart(539, 700, 165, 120);
   part2 = new DustbinPart(550, 620, 10, 80);
   part3 = new DustbinPart(690, 620, 10, 80);
-  slingShot = new Launcher(paper.body,{x:200, y:50});
+  slingShot = new Launcher(paper.body,{x:200, y:460});
 }
 function draw() {
   background(250);
