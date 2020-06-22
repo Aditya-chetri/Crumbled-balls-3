@@ -22,12 +22,13 @@ class Launcher{
     }
     
     display(){
-        image(this.sling1,200,20);
-        image(this.sling2,170,20);
-        var pointA = this.sling.bodyA.position;
-            var pointB = this.pointB;
+        image(this.sling1,200,460);
+        image(this.sling2,170,460);
+       
             
         if(this.sling.bodyA){
+            var pointA = this.sling.bodyA.position;
+            var pointB = this.pointB;
             
             push();
             
